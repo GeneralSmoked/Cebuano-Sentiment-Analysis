@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 #load dataset
-df = pd.read_csv(r'C:\Users\Rosh\Documents\GitHub\Cebuano Sentiment Analysis\CebuanoDataset.csv')
+df = pd.read_csv(r'C:\Users\Rosh\Documents\GitHub\Cebuano Sentiment Analysis\Data\CebuanoDataset.csv')
 #load tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
