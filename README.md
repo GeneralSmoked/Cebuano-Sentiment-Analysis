@@ -2,7 +2,7 @@ Cebuano Sentiment Analysis with BERT
 This project is my personal entry into learning more about Natural Language Processing (NLP), specifically focused on Cebuano text sentiment analysis. It uses a pretrained BERT base model for both training and tokenization.
 
 📊 Dataset
-The dataset used in this project is a manually annotated dataset, created and labeled by hand. It also includes a small portion of synthetically generated data to balance and augment the corpus.
+The dataset used in this project is a manually annotated corpus, created and labeled entirely by hand. It also includes a small portion of synthetically generated data to help balance and augment the dataset. The sentiment labels are binary — either positive or negative — with no neutral category included.
 
 ⚙️ Setup
 To use this project:
